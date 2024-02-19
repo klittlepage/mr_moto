@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mrmoto"
+version = "0.1.0"
+description = "Mr. Moto secret cipher solver"
+authors = ["Kelly Littlepage <kelly@klittlepage.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.1.1"
+nltk = "^3.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^24.2.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
